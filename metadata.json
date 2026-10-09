@@ -1,0 +1,6 @@
+{
+  "name": "LocalBoost AI Review",
+  "description": "Multi-tenant SaaS platform empowering businesses across all categories to collect customer feedback, generate AI-assisted Google review drafts, rotate SEO keywords, and create custom QR codes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

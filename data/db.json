@@ -1,0 +1,1167 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Restaurant",
+      "icon": "Utensils",
+      "description": "Dining establishments, fine dining, fast food, bistros"
+    },
+    {
+      "id": "cat-2",
+      "name": "Cafe",
+      "icon": "Coffee",
+      "description": "Coffee shops, bakeries, tearooms, breakfast spots"
+    },
+    {
+      "id": "cat-3",
+      "name": "Hotel",
+      "icon": "Hotel",
+      "description": "Hotels, resorts, homestays, bed & breakfasts"
+    },
+    {
+      "id": "cat-4",
+      "name": "Salon",
+      "icon": "Scissors",
+      "description": "Hair salons, barbershops, unisex styling"
+    },
+    {
+      "id": "cat-5",
+      "name": "Beauty Parlour",
+      "icon": "Sparkles",
+      "description": "Bridal makeovers, skincare, spa, nail studios"
+    },
+    {
+      "id": "cat-6",
+      "name": "Clothing Store",
+      "icon": "ShoppingBag",
+      "description": "Boutiques, apparel, ethnic wear, fashion retailers"
+    },
+    {
+      "id": "cat-7",
+      "name": "Retail Shop",
+      "icon": "Store",
+      "description": "General merchandise, footwear, gift shops, accessories"
+    },
+    {
+      "id": "cat-8",
+      "name": "Grocery Store",
+      "icon": "Apple",
+      "description": "Supermarkets, organic food, daily essentials"
+    },
+    {
+      "id": "cat-9",
+      "name": "Gym and Fitness",
+      "icon": "Dumbbell",
+      "description": "Fitness clubs, CrossFit, yoga studios, personal trainers"
+    },
+    {
+      "id": "cat-10",
+      "name": "Clinic",
+      "icon": "HeartPulse",
+      "description": "Specialist doctors, diagnostic centers, polyclinics"
+    },
+    {
+      "id": "cat-11",
+      "name": "Hospital",
+      "icon": "Building2",
+      "description": "Multi-speciality hospitals, emergency care, nursing homes"
+    },
+    {
+      "id": "cat-12",
+      "name": "Dentist",
+      "icon": "Smile",
+      "description": "Dental clinics, orthodontics, teeth whitening, implants"
+    },
+    {
+      "id": "cat-13",
+      "name": "Pharmacy",
+      "icon": "Pill",
+      "description": "Medical stores, chemist shops, healthcare supplies"
+    },
+    {
+      "id": "cat-14",
+      "name": "Electronics Store",
+      "icon": "Laptop",
+      "description": "Smartphones, home appliances, computer hardware"
+    },
+    {
+      "id": "cat-15",
+      "name": "Automobile Dealer",
+      "icon": "Car",
+      "description": "New & used car showrooms, bike dealers"
+    },
+    {
+      "id": "cat-16",
+      "name": "Car Repair",
+      "icon": "Wrench",
+      "description": "Auto workshops, detailing, tyre care, mechanics"
+    },
+    {
+      "id": "cat-17",
+      "name": "Real Estate",
+      "icon": "Home",
+      "description": "Property consultants, builders, real estate agencies"
+    },
+    {
+      "id": "cat-18",
+      "name": "Coaching Institute",
+      "icon": "GraduationCap",
+      "description": "Tuitions, competitive exam coaching, test prep"
+    },
+    {
+      "id": "cat-19",
+      "name": "School",
+      "icon": "BookOpen",
+      "description": "Pre-schools, international schools, academies"
+    },
+    {
+      "id": "cat-20",
+      "name": "Travel Agency",
+      "icon": "Plane",
+      "description": "Tour operators, visa consultants, holiday packages"
+    },
+    {
+      "id": "cat-21",
+      "name": "Professional Services",
+      "icon": "Briefcase",
+      "description": "Chartered accountants, legal consultants, digital agencies"
+    },
+    {
+      "id": "cat-22",
+      "name": "Home Services",
+      "icon": "Hammer",
+      "description": "Plumbing, electrician, cleaning, interior design"
+    },
+    {
+      "id": "cat-23",
+      "name": "Other / Custom Business",
+      "icon": "Boxes",
+      "description": "Any specialized commercial enterprise"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-superadmin",
+      "email": "admin@localboost.io",
+      "name": "Super Administrator",
+      "phone": "+1 (555) 019-2831",
+      "role": "admin",
+      "isActive": true,
+      "isLifetime": true,
+      "maxBusinesses": 999,
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "cust-demo-1",
+      "email": "contact@apexfitness.com",
+      "name": "Marcus Vance",
+      "phone": "+1 (555) 349-1120",
+      "role": "customer",
+      "isActive": true,
+      "isLifetime": false,
+      "expiryDate": "2027-12-31T23:59:59Z",
+      "maxBusinesses": 5,
+      "createdAt": "2025-02-10T10:00:00Z",
+      "updatedAt": "2025-02-10T10:00:00Z"
+    },
+    {
+      "id": "cust-demo-2",
+      "email": "owner@spicegardenbistro.com",
+      "name": "Priya Sharma",
+      "phone": "+91 98250 12345",
+      "role": "customer",
+      "isActive": true,
+      "isLifetime": true,
+      "maxBusinesses": 3,
+      "createdAt": "2025-03-01T12:00:00Z",
+      "updatedAt": "2025-03-01T12:00:00Z"
+    },
+    {
+      "id": "cust-demo-3",
+      "email": "drpatel@smilecaredental.com",
+      "name": "Dr. Aarav Patel",
+      "phone": "+91 98790 98765",
+      "role": "customer",
+      "isActive": true,
+      "isLifetime": false,
+      "expiryDate": "2026-11-30T23:59:59Z",
+      "maxBusinesses": 2,
+      "createdAt": "2025-03-15T08:30:00Z",
+      "updatedAt": "2025-03-15T08:30:00Z"
+    },
+    {
+      "email": "hi@gmail.com",
+      "name": "kishan ladani",
+      "phone": "+919724852137",
+      "role": "customer",
+      "isActive": true,
+      "isLifetime": false,
+      "expiryDate": "2027-10-09T08:34:33.766Z",
+      "maxBusinesses": 3,
+      "id": "cust-1791534874287-cil4",
+      "createdAt": "2026-10-09T08:34:34.287Z",
+      "updatedAt": "2026-10-09T08:34:34.287Z"
+    },
+    {
+      "email": "testowner@shop.com",
+      "name": "Sarah Jenkins",
+      "role": "customer",
+      "isActive": true,
+      "isLifetime": true,
+      "maxBusinesses": 5,
+      "password": "ShopPassword!123",
+      "id": "cust-1791537922829-boec",
+      "createdAt": "2026-10-09T09:25:22.829Z",
+      "updatedAt": "2026-10-09T09:25:22.829Z"
+    },
+    {
+      "email": "expired@shop.com",
+      "name": "Expired Owner",
+      "role": "customer",
+      "isActive": true,
+      "isLifetime": false,
+      "expiryDate": "2020-01-01",
+      "maxBusinesses": 1,
+      "password": "test",
+      "id": "cust-1791537959629-qrzt",
+      "createdAt": "2026-10-09T09:25:59.629Z",
+      "updatedAt": "2026-10-09T09:25:59.629Z"
+    }
+  ],
+  "businesses": [
+    {
+      "customerId": "cust-demo-2",
+      "name": "Fhg",
+      "slug": "fhg",
+      "category": "Restaurant",
+      "brandColor": "#7c3aed",
+      "accentColor": "#6366f1",
+      "googleReviewUrl": "https://guogeighrvlukxvwzbsb.supabase.co",
+      "supportedLanguages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "displayKeywordsCount": 5,
+      "customCtaText": "Open Google Review & Paste",
+      "isActive": true,
+      "id": "biz-1791534726365-cegw",
+      "createdAt": "2026-10-09T08:32:06.365Z",
+      "updatedAt": "2026-10-09T08:32:06.365Z"
+    },
+    {
+      "customerId": "cust-demo-2",
+      "name": "Reto",
+      "slug": "reto",
+      "category": "Clothing Store",
+      "brandColor": "#7c3aed",
+      "accentColor": "#6366f1",
+      "googleReviewUrl": "https://guogeighrvlukxvwzbsb.supabase.co",
+      "supportedLanguages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "displayKeywordsCount": 5,
+      "customCtaText": "Open Google Review & Paste",
+      "isActive": true,
+      "id": "biz-1791533419018-cel7",
+      "createdAt": "2026-10-09T08:10:19.018Z",
+      "updatedAt": "2026-10-09T08:10:19.018Z"
+    },
+    {
+      "id": "biz-1",
+      "customerId": "cust-demo-2",
+      "name": "The Spice Garden Bistro & Cafe",
+      "slug": "the-spice-garden-bistro",
+      "category": "Restaurant",
+      "tagline": "Authentic Indian Fusion & Artisan Coffee in a Botanical Ambience",
+      "description": "Fresh farm-to-table dining with aromatic spices, woodfired tandoor specialties, and relaxing garden seating.",
+      "productsServices": "Tandoori Platters, Paneer Lababdar, Handcrafted Mocktails, Sizzlers, Cold Brews",
+      "address": "42 Heritage Boulevard, Near City Park, Ahmedabad, Gujarat",
+      "phone": "+91 79 2658 9900",
+      "whatsapp": "+91 98250 12345",
+      "website": "https://spicegardenbistro.example.com",
+      "logoUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=200&auto=format&fit=crop&q=80",
+      "brandColor": "#7c3aed",
+      "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJN1t_tDeuEmsRUsoyG83frY4",
+      "supportedLanguages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "displayKeywordsCount": 5,
+      "accentColor": "#6366f1",
+      "customCtaText": "Share Your Dine-in Experience on Google",
+      "isActive": true,
+      "createdAt": "2025-03-02T10:00:00Z",
+      "updatedAt": "2025-03-02T10:00:00Z"
+    },
+    {
+      "id": "biz-2",
+      "customerId": "cust-demo-1",
+      "name": "Apex Performance Gym & CrossFit",
+      "slug": "apex-performance-gym",
+      "category": "Gym and Fitness",
+      "tagline": "State-of-the-Art Training, Elite Coaches & Nutrition Guidance",
+      "description": "Premier 10,000 sq ft fitness facility featuring Olympic lifting platforms, cardio theatre, certified strength coaches, and recovery lounge.",
+      "productsServices": "Personal Training, CrossFit WODs, HIIT, Spin Studio, Steam & Sauna Recovery",
+      "address": "740 Metropolitan Ave, Suite 3, Brooklyn, NY 11211",
+      "phone": "+1 (555) 349-1120",
+      "whatsapp": "+1 (555) 349-1120",
+      "website": "https://apexperformance.example.com",
+      "logoUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=200&auto=format&fit=crop&q=80",
+      "brandColor": "#4f46e5",
+      "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJ2eUgeAK6j4ARbn5u_wAGqWA",
+      "supportedLanguages": [
+        "en"
+      ],
+      "displayKeywordsCount": 5,
+      "accentColor": "#3b82f6",
+      "customCtaText": "Review Your Workout Experience on Google",
+      "isActive": true,
+      "createdAt": "2025-02-12T14:00:00Z",
+      "updatedAt": "2025-02-12T14:00:00Z"
+    },
+    {
+      "id": "biz-3",
+      "customerId": "cust-demo-3",
+      "name": "SmileCare Multispeciality Dental",
+      "slug": "smilecare-multispeciality-dental",
+      "category": "Dentist",
+      "tagline": "Painless Dentistry, Clear Aligners & Gentle Family Care",
+      "description": "Modern clinic with digital 3D scans, sterilised operatory, laser dentistry, and paediatric tooth specialists.",
+      "productsServices": "Root Canal Treatment, Invisalign Aligners, Dental Implants, Teeth Whitening",
+      "address": "302 Sapphire Arcade, Ring Road, Surat, Gujarat",
+      "phone": "+91 261 245 8899",
+      "whatsapp": "+91 98790 98765",
+      "website": "https://smilecaredental.example.com",
+      "logoUrl": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=200&auto=format&fit=crop&q=80",
+      "brandColor": "#0ea5e9",
+      "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJrTLr-GyuEmsRBfy61i59si0",
+      "supportedLanguages": [
+        "en",
+        "hi",
+        "gu"
+      ],
+      "displayKeywordsCount": 5,
+      "accentColor": "#0284c7",
+      "customCtaText": "Leave a Review for Dr. Patel and SmileCare",
+      "isActive": true,
+      "createdAt": "2025-03-16T11:00:00Z",
+      "updatedAt": "2025-03-16T11:00:00Z"
+    }
+  ],
+  "masterKeywords": [
+    {
+      "id": "mk-1",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Delicious Food",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-2",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Quick & Friendly Service",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-3",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Lovely Ambience",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-4",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Fresh & Hygienic Ingredients",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-5",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Great Value for Money",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-6",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Cozy Family Seating",
+      "priority": 7,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-7",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Mouthwatering Desserts",
+      "priority": 7,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-8",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Authentic Flavours",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-9",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Courteous Staff",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-10",
+      "category": "Restaurant",
+      "language": "en",
+      "keyword": "Generous Portions",
+      "priority": 6,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-11",
+      "category": "Restaurant",
+      "language": "hi",
+      "keyword": "स्वादिष्ट और ताज़ा खाना",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-12",
+      "category": "Restaurant",
+      "language": "hi",
+      "keyword": "उत्कृष्ट और विनम्र सर्विस",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-13",
+      "category": "Restaurant",
+      "language": "hi",
+      "keyword": "खूबसूरत माहौल",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-14",
+      "category": "Restaurant",
+      "language": "hi",
+      "keyword": "पारिवारिक वातावरण",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-15",
+      "category": "Restaurant",
+      "language": "hi",
+      "keyword": "पैसे वसूल क्वालिटी",
+      "priority": 7,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-16",
+      "category": "Restaurant",
+      "language": "hi",
+      "keyword": "साफ-सफाई और स्वच्छता",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-17",
+      "category": "Restaurant",
+      "language": "gu",
+      "keyword": "અતિ સ્વાદિષ્ટ ભોજન",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-18",
+      "category": "Restaurant",
+      "language": "gu",
+      "keyword": "નમ્ર અને ઝડપી સર્વિસ",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-19",
+      "category": "Restaurant",
+      "language": "gu",
+      "keyword": "શાંત અને સુંદર વાતાવરણ",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-20",
+      "category": "Restaurant",
+      "language": "gu",
+      "keyword": "શુદ્ધ અને ગુણવત્તાયુક્ત",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-21",
+      "category": "Restaurant",
+      "language": "gu",
+      "keyword": "ફેમિલી માટે બેસ્ટ જગ્યા",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-22",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Top-notch Equipment",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-23",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Supportive & Certified Trainers",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-24",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Clean & Sanitized Space",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-25",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Motivating Vibe",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-26",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Customized Workout Routine",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-27",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Great Locker & Shower Facilities",
+      "priority": 7,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-28",
+      "category": "Gym and Fitness",
+      "language": "en",
+      "keyword": "Noticeable Fitness Results",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-29",
+      "category": "Dentist",
+      "language": "en",
+      "keyword": "Painless Treatment",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-30",
+      "category": "Dentist",
+      "language": "en",
+      "keyword": "Gentle & Patient Doctor",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-31",
+      "category": "Dentist",
+      "language": "en",
+      "keyword": "Advanced Digital Tools",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-32",
+      "category": "Dentist",
+      "language": "en",
+      "keyword": "Thorough Diagnosis & Care",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-33",
+      "category": "Dentist",
+      "language": "en",
+      "keyword": "Sparkling Clean Clinic",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-34",
+      "category": "Dentist",
+      "language": "en",
+      "keyword": "Warm Clinic Reception",
+      "priority": 7,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-35",
+      "category": "Salon",
+      "language": "en",
+      "keyword": "Expert Hair Stylist",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-36",
+      "category": "Salon",
+      "language": "en",
+      "keyword": "Relaxing Head Massage",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-37",
+      "category": "Salon",
+      "language": "en",
+      "keyword": "Premium Hair & Skin Products",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-38",
+      "category": "Salon",
+      "language": "en",
+      "keyword": "Trendy & Precision Haircut",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-39",
+      "category": "Salon",
+      "language": "en",
+      "keyword": "Hygienic Styling Chairs",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-40",
+      "category": "Clothing Store",
+      "language": "en",
+      "keyword": "Fantastic Fabric Quality",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-41",
+      "category": "Clothing Store",
+      "language": "en",
+      "keyword": "Latest Fashion Trends",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-42",
+      "category": "Clothing Store",
+      "language": "en",
+      "keyword": "Helpful Sales Team",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-43",
+      "category": "Clothing Store",
+      "language": "en",
+      "keyword": "Affordable Price Range",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-44",
+      "category": "Professional Services",
+      "language": "en",
+      "keyword": "Prompt Communication",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-45",
+      "category": "Professional Services",
+      "language": "en",
+      "keyword": "Transparent Pricing",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-46",
+      "category": "Professional Services",
+      "language": "en",
+      "keyword": "Highly Recommended",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-47",
+      "category": "Other / Custom Business",
+      "language": "en",
+      "keyword": "Exceptional Customer Care",
+      "priority": 10,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-48",
+      "category": "Other / Custom Business",
+      "language": "en",
+      "keyword": "Trustworthy & Reliable",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-49",
+      "category": "Other / Custom Business",
+      "language": "en",
+      "keyword": "Smooth Seamless Process",
+      "priority": 8,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "mk-50",
+      "category": "Other / Custom Business",
+      "language": "en",
+      "keyword": "Exceeded My Expectations",
+      "priority": 9,
+      "isActive": true,
+      "createdAt": "2025-01-01"
+    }
+  ],
+  "businessKeywords": [],
+  "feedback": [
+    {
+      "businessId": "biz-1",
+      "rating": 2,
+      "message": "Wait time was longer than expected",
+      "customerName": "Test Visitor",
+      "customerPhone": "+1234567890",
+      "id": "fb-1791537913857-fqt1",
+      "status": "New",
+      "createdAt": "2026-10-09T09:25:13.857Z"
+    },
+    {
+      "id": "fb-1",
+      "businessId": "biz-1",
+      "rating": 4,
+      "message": "The food was great especially the Paneer Lababdar! Waiting time for mocktails was slightly long on Saturday evening, but staff was very apologetic and polite.",
+      "customerName": "Rohit Verma",
+      "customerPhone": "+91 98980 11223",
+      "status": "In Progress",
+      "adminNotes": "Spoke with Head Chef about weekend beverage queue management.",
+      "createdAt": "2025-03-20T19:30:00Z"
+    },
+    {
+      "id": "fb-2",
+      "businessId": "biz-1",
+      "rating": 5,
+      "message": "Hosted my parents 25th anniversary here. Loved the botanical lighting and private booth seating. Dr. Priya and the manager took personal care!",
+      "customerName": "Ananya Dave",
+      "customerPhone": "+91 97123 45678",
+      "status": "Resolved",
+      "adminNotes": "Customer sent a thank-you note and booked for upcoming Diwali gathering.",
+      "createdAt": "2025-03-22T21:15:00Z"
+    },
+    {
+      "id": "fb-3",
+      "businessId": "biz-2",
+      "rating": 3,
+      "message": "The morning 7 AM slot was a bit crowded near the squat racks. Would be amazing to add 2 more power racks!",
+      "customerName": "David K.",
+      "customerPhone": "+1 (555) 890-4412",
+      "status": "New",
+      "createdAt": "2025-03-25T08:10:00Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "🚀 Multilingual AI Review Generator 2.0 Live!",
+      "message": "You can now select English, Hindi, and Gujarati for automatic review draft suggestions with instant clipboard copy!",
+      "type": "success",
+      "createdAt": "2025-03-01T00:00:00Z",
+      "isActive": true
+    },
+    {
+      "id": "ann-2",
+      "title": "📌 Tip: Print your high-res Table Standee QR codes",
+      "message": "Check out the QR Studio tab to download SVG/PNG tent cards designed specifically for counters and dining tables.",
+      "type": "info",
+      "createdAt": "2025-03-15T00:00:00Z",
+      "isActive": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1791537959787-5ke",
+      "adminId": "admin",
+      "adminEmail": "admin@localboost.io",
+      "action": "INVITE_CUSTOMER",
+      "targetType": "CUSTOMER",
+      "targetId": "cust-1791537959629-qrzt",
+      "details": "Created customer account for Expired Owner (expired@shop.com) with limit 1 and expiry 2020-01-01. Credentials issued.",
+      "timestamp": "2026-10-09T09:25:59.787Z"
+    },
+    {
+      "id": "log-1791537926842-ibb",
+      "adminId": "admin",
+      "adminEmail": "admin@localboost.io",
+      "action": "INVITE_CUSTOMER",
+      "targetType": "CUSTOMER",
+      "targetId": "cust-1791537922829-boec",
+      "details": "Created customer account for Sarah Jenkins (testowner@shop.com) with limit 5 and expiry Lifetime. Credentials issued.",
+      "timestamp": "2026-10-09T09:25:26.842Z"
+    },
+    {
+      "id": "log-1791534881584-slk",
+      "adminId": "admin",
+      "adminEmail": "admin@localboost.io",
+      "action": "IMPERSONATION_START",
+      "targetType": "CUSTOMER",
+      "targetId": "cust-1791534874287-cil4",
+      "details": "Admin impersonated customer account kishan ladani (hi@gmail.com)",
+      "timestamp": "2026-10-09T08:34:41.584Z"
+    },
+    {
+      "id": "log-1791534874288-giz",
+      "adminId": "admin",
+      "adminEmail": "admin@localboost.io",
+      "action": "CREATE_CUSTOMER",
+      "targetType": "CUSTOMER",
+      "targetId": "cust-1791534874287-cil4",
+      "details": "Created customer kishan ladani (hi@gmail.com) with limit 3",
+      "timestamp": "2026-10-09T08:34:34.288Z"
+    },
+    {
+      "id": "log-1",
+      "adminId": "cust-superadmin",
+      "adminEmail": "admin@localboost.io",
+      "action": "SYSTEM_BOOTSTRAP",
+      "targetType": "SYSTEM",
+      "details": "Initial multi-tenant tenant isolation schemas and master category keywords initialized.",
+      "timestamp": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "log-2",
+      "adminId": "cust-superadmin",
+      "adminEmail": "admin@localboost.io",
+      "action": "CREATE_CUSTOMER",
+      "targetType": "CUSTOMER",
+      "targetId": "cust-demo-1",
+      "details": "Created customer account for Apex Performance Gym (Marcus Vance)",
+      "timestamp": "2025-02-10T10:00:00Z"
+    },
+    {
+      "id": "log-3",
+      "adminId": "cust-superadmin",
+      "adminEmail": "admin@localboost.io",
+      "action": "KEYWORD_UPDATE",
+      "targetType": "CATEGORY",
+      "targetId": "Restaurant",
+      "details": "Added multilingual Gujarati and Hindi keyword clusters for Restaurant & Cafe categories.",
+      "timestamp": "2025-03-01T12:00:00Z"
+    }
+  ],
+  "analyticsEvents": [
+    {
+      "id": "ev-1",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-07T07:54:37.524Z"
+    },
+    {
+      "id": "ev-2",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 5
+      },
+      "timestamp": "2026-10-07T07:54:37.524Z"
+    },
+    {
+      "id": "ev-3",
+      "businessId": "biz-1",
+      "eventType": "google_review_click",
+      "timestamp": "2026-10-08T07:54:37.524Z"
+    },
+    {
+      "id": "ev-4",
+      "businessId": "biz-2",
+      "eventType": "page_view",
+      "timestamp": "2026-10-08T07:54:37.524Z"
+    },
+    {
+      "id": "ev-5",
+      "businessId": "biz-2",
+      "eventType": "ai_generate",
+      "meta": {
+        "language": "en"
+      },
+      "timestamp": "2026-10-09T07:54:37.524Z"
+    },
+    {
+      "id": "ev-1791532766013-eby",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T07:59:26.013Z"
+    },
+    {
+      "id": "ev-1791533190661-l40",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T08:06:30.661Z"
+    },
+    {
+      "id": "ev-1791533216326-tbx",
+      "businessId": "biz-1",
+      "eventType": "keyword_select",
+      "meta": {
+        "keyword": "Lovely Ambience"
+      },
+      "timestamp": "2026-10-09T08:06:56.326Z"
+    },
+    {
+      "id": "ev-1791533218786-99g",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 3
+      },
+      "timestamp": "2026-10-09T08:06:58.786Z"
+    },
+    {
+      "id": "ev-1791533221162-2f8",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 2
+      },
+      "timestamp": "2026-10-09T08:07:01.162Z"
+    },
+    {
+      "id": "ev-1791533222979-8pd",
+      "businessId": "biz-1",
+      "eventType": "keyword_select",
+      "meta": {
+        "keyword": "Fresh & Hygienic Ingredients"
+      },
+      "timestamp": "2026-10-09T08:07:02.979Z"
+    },
+    {
+      "id": "ev-1791533229757-u8t",
+      "businessId": "biz-1",
+      "eventType": "keyword_select",
+      "meta": {
+        "keyword": "खूबसूरत माहौल"
+      },
+      "timestamp": "2026-10-09T08:07:09.757Z"
+    },
+    {
+      "id": "ev-1791533231208-yi6",
+      "businessId": "biz-1",
+      "eventType": "keyword_select",
+      "meta": {
+        "keyword": "स्वादिष्ट और ताज़ा खाना"
+      },
+      "timestamp": "2026-10-09T08:07:11.208Z"
+    },
+    {
+      "id": "ev-1791534353773-hvs",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T08:25:53.773Z"
+    },
+    {
+      "id": "ev-1791534465199-exv",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T08:27:45.199Z"
+    },
+    {
+      "id": "ev-1791534469998-flr",
+      "businessId": "biz-1",
+      "eventType": "keyword_select",
+      "meta": {
+        "keyword": "Exceptional Customer Care"
+      },
+      "timestamp": "2026-10-09T08:27:49.998Z"
+    },
+    {
+      "id": "ev-1791534471926-uz5",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 3
+      },
+      "timestamp": "2026-10-09T08:27:51.926Z"
+    },
+    {
+      "id": "ev-1791534473365-vw2",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 3
+      },
+      "timestamp": "2026-10-09T08:27:53.365Z"
+    },
+    {
+      "id": "ev-1791534474595-j5k",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 3
+      },
+      "timestamp": "2026-10-09T08:27:54.595Z"
+    },
+    {
+      "id": "ev-1791534475529-yvr",
+      "businessId": "biz-1",
+      "eventType": "rating_select",
+      "meta": {
+        "rating": 2
+      },
+      "timestamp": "2026-10-09T08:27:55.529Z"
+    },
+    {
+      "id": "ev-1791534481357-awe",
+      "businessId": "biz-1",
+      "eventType": "ai_generate",
+      "meta": {
+        "rating": 2,
+        "language": "en",
+        "isAiGenerated": false
+      },
+      "timestamp": "2026-10-09T08:28:01.357Z"
+    },
+    {
+      "id": "ev-1791535118068-xey",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T08:38:38.068Z"
+    },
+    {
+      "id": "ev-1791536794471-euq",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T09:06:34.471Z"
+    },
+    {
+      "id": "ev-1791537071798-g14",
+      "businessId": "biz-1",
+      "eventType": "page_view",
+      "timestamp": "2026-10-09T09:11:11.798Z"
+    },
+    {
+      "id": "ev-1791537914796-kph",
+      "businessId": "biz-1",
+      "eventType": "private_feedback",
+      "meta": {
+        "rating": 2
+      },
+      "timestamp": "2026-10-09T09:25:14.796Z"
+    }
+  ],
+  "qrSettings": {
+    "biz-1": {
+      "businessId": "biz-1",
+      "fgColor": "#4338ca",
+      "bgColor": "#ffffff",
+      "style": "modern-card",
+      "showLogo": true,
+      "customCta": "Review us on Google for 10% off your next dining experience!"
+    },
+    "biz-2": {
+      "businessId": "biz-2",
+      "fgColor": "#1e1b4b",
+      "bgColor": "#ffffff",
+      "style": "table-standee",
+      "showLogo": true,
+      "customCta": "Scan to review your training session!"
+    },
+    "biz-1791533419018-cel7": {
+      "businessId": "biz-1791533419018-cel7",
+      "fgColor": "#1e1b4b",
+      "bgColor": "#ffffff",
+      "style": "modern-card",
+      "showLogo": true,
+      "customCta": "Scan to Review us on Google!"
+    }
+  }
+}
